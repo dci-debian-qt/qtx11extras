@@ -18,7 +18,7 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtx11extrass.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtx11extras.git
 
-Package: libqtx11extras
+Package: libqt5x11extras5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
@@ -28,6 +28,30 @@ Description: Qt 5 X11 extras
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package includes ?????????
+
+Package: libqt5x11extras-dev
+Section: devel
+Architecture: any
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5x11extras55 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 X11 extras
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the development headers for the X11 extras library.
+
+Package: qtx11extras5-dbg
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Section: debug
+Depends: libqt5x11extras5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 X11 extras libraries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 X11 extras library.
 
 Package: qtx11extras5-doc
 Priority: extra

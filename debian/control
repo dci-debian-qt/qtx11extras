@@ -32,7 +32,7 @@ Description: Qt 5 X11 extras
  This package includes the library to access X11 stuff from within Qt 5.
 
 Package: libqt5x11extras-dev
-Section: devel
+Section: libdevel
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5x11extras5 (= ${binary:Version}), ${misc:Depends}

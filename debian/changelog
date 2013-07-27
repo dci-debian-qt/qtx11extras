@@ -1,0 +1,6 @@
+qtx11extras-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Initial release. (Closes: #697509)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jul 2013 14:05:21 -0300

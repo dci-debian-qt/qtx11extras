@@ -11,7 +11,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --with pkgkde_symbolshelper --parallel
+	dh $@ --with pkgkde_symbolshelper --parallel --dbg-package=qtx11extras5-dbg
 
 override_dh_auto_configure:
 	qmake 

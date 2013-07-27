@@ -59,6 +59,17 @@ License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
  Furthermore, you are not required to apply this additional permission to a
  modified version of the Library.
 
+License: GPL-3
+ Alternatively, this file may be used under the terms of the GNU General
+ Public License version 3.0 as published by the Free Software Foundation
+ and appearing in the file LICENSE.GPL included in the packaging of this
+ file. Please review the following information to ensure the GNU General
+ Public License version 3.0 requirements will be met:
+ http://www.gnu.org/copyleft/gpl.html.
+ .
+ On Debian systems, the complete text of the GNU Public Licenses can be found
+ in `/usr/share/common-licenses/GPL-3`.
+
 License: LGPL-2.1
  This file may be used under the terms of the GNU Lesser General Public
  License version 2.1 as published by the Free Software Foundation and

@@ -1,0 +1,7 @@
+usr/include/qt5/QtX11Extras/
+usr/lib/*/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake
+usr/lib/*/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake
+usr/lib/*/libQt5X11Extras.prl
+usr/lib/*/libQt5X11Extras.so
+usr/lib/*/pkgconfig/Qt5X11Extras.pc
+usr/share/qt5/mkspecs/modules/qt_lib_x11extras.pri

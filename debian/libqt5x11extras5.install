@@ -1,3 +1,1 @@
-usr/lib/*/libQt5X11Extras.so.5
-usr/lib/*/libQt5X11Extras.so.5.1
-usr/lib/*/libQt5X11Extras.so.5.1.0
+usr/lib/*/libQt5X11Extras.so.*

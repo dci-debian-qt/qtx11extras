@@ -1,3 +1,7 @@
+qtx11extras-opensource-src (5.1.0-3) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Aug 2013 19:58:31 -0300
+
 qtx11extras-opensource-src (5.1.0-2) unstable; urgency=low
 
   * Upload to unstable.

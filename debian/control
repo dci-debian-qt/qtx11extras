@@ -17,7 +17,7 @@ Build-Depends-Indep: libqt5sql5-sqlite (>= 5.1.0~),
                      qttools5-dev-tools (>= 5.1.0~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtx11extrass.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtx11extras.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtx11extras.git
 
 Package: libqt5x11extras5

@@ -1,11 +1,14 @@
 qtx11extras-opensource-src (5.1.1-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix orthography in previous changelog.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 22:41:00 -0300
 
 qtx11extras-opensource-src (5.1.1-1) unstable; urgency=low
 
   * New upstream release.
-    - Tight Qt 5 build dependencies.
+    - Tighten Qt 5 build dependencies.
   * Fix typo in Vcs-Git header.
   * Improve documentation description.
   * Improve debian/copyright. Thanks Scott Kitterman for pointing the

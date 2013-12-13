@@ -2,6 +2,7 @@ qtx11extras-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+  * Adjust build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Dec 2013 13:24:59 -0300
 

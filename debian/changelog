@@ -3,6 +3,8 @@ qtx11extras-opensource-src (5.2.0-2) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Rename libqt5x11extras-dev to libqt5x11exras5-dev for consistency with
     other modules.
+  * Drop Pre-Depends on dpkg (>= 1.15.6~), that version is available in
+    Squeeze already.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jan 2014 17:31:57 +0400
 

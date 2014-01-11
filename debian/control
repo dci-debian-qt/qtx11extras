@@ -23,7 +23,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtx11extras.git
 Package: libqt5x11extras5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 X11 extras
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -34,7 +34,6 @@ Description: Qt 5 X11 extras
 Package: libqt5x11extras5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5x11extras5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}

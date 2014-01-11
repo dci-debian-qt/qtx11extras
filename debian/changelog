@@ -5,6 +5,7 @@ qtx11extras-opensource-src (5.2.0-2) UNRELEASED; urgency=medium
     other modules.
   * Drop Pre-Depends on dpkg (>= 1.15.6~), that version is available in
     Squeeze already.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jan 2014 17:31:57 +0400
 

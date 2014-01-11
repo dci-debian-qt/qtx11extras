@@ -31,18 +31,29 @@ Description: Qt 5 X11 extras
  .
  This package includes the library to access X11 stuff from within Qt 5.
 
-Package: libqt5x11extras-dev
+Package: libqt5x11extras5-dev
 Section: libdevel
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5x11extras5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
+Breaks: libqt5x11extras-dev (<< 5.2.0-2~)
+Replaces: libqt5x11extras-dev (<< 5.2.0-2~)
 Description: Qt 5 X11 extras development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package includes the development headers for the X11 extras library.
+
+Package: libqt5x11extras-dev
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: libqt5x11extras5-dev
+Description: Qt 5 X11 extras development files - dummy transitional package
+ This package is transitional to libqt5x11extras5-dev. It can be safely
+ removed after upgrade.
 
 Package: qtx11extras5-dbg
 Priority: extra

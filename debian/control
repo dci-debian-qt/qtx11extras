@@ -11,11 +11,11 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.1.1+dfsg),
-               qtbase5-private-dev (>= 5.1.1+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.1.1+dfsg~),
-                     qttools5-dev-tools (>= 5.1.1~)
-Standards-Version: 3.9.4
+               qtbase5-dev (>= 5.2.0+dfsg~),
+               qtbase5-private-dev (>= 5.2.0+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.2.0+dfsg~),
+                     qttools5-dev-tools (>= 5.2.0-1~)
+Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtx11extras.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtx11extras.git
@@ -23,7 +23,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtx11extras.git
 Package: libqt5x11extras5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 X11 extras
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -31,18 +31,28 @@ Description: Qt 5 X11 extras
  .
  This package includes the library to access X11 stuff from within Qt 5.
 
-Package: libqt5x11extras-dev
+Package: libqt5x11extras5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5x11extras5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
+Breaks: libqt5x11extras-dev (<< 5.2.0-2~)
+Replaces: libqt5x11extras-dev (<< 5.2.0-2~)
 Description: Qt 5 X11 extras development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package includes the development headers for the X11 extras library.
+
+Package: libqt5x11extras-dev
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: libqt5x11extras5-dev
+Description: Qt 5 X11 extras development files - dummy transitional package
+ This package is transitional to libqt5x11extras5-dev. It can be safely
+ removed after upgrade.
 
 Package: qtx11extras5-dbg
 Priority: extra

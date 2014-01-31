@@ -32,7 +32,7 @@ override_dh_auto_install-arch:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	# Remove private stuff which we are not shipping.
-	rm -fv debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
+	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
 	
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \

@@ -45,15 +45,6 @@ Description: Qt 5 X11 extras development files
  .
  This package includes the development headers for the X11 extras library.
 
-Package: libqt5x11extras-dev
-Section: oldlibs
-Priority: extra
-Architecture: all
-Depends: libqt5x11extras5-dev
-Description: Qt 5 X11 extras development files - dummy transitional package
- This package is transitional to libqt5x11extras5-dev. It can be safely
- removed after upgrade.
-
 Package: qtx11extras5-dbg
 Priority: extra
 Architecture: any

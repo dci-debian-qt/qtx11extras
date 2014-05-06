@@ -1,4 +1,4 @@
-usr/include/qt5/QtX11Extras/
+usr/include/*/qt5/QtX11Extras/
 usr/lib/*/cmake/*
 usr/lib/*/libQt5X11Extras.prl
 usr/lib/*/libQt5X11Extras.so

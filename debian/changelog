@@ -2,7 +2,8 @@ qtx11extras-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
-  * Fix headers location: they are now in a Multi-Arch qualified path.
+  * Fix headers location: they are now in a Multi-Arch qualified path. Make
+    the development package Multi-Arch: same.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 23:44:04 -0300
 

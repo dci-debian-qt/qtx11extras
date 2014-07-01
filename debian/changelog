@@ -3,6 +3,7 @@ qtx11extras-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
+  * Do not override dh_builddeb, xz is now the default compression method.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 10:53:40 -0300
 

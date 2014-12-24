@@ -62,7 +62,7 @@ qtx11extras-opensource-src (5.2.1-1) experimental; urgency=medium
 qtx11extras-opensource-src (5.2.0-2) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Rename libqt5x11extras-dev to libqt5x11exras5-dev for consistency with
+  * Rename libqt5x11extras-dev to libqt5x11extras5-dev for consistency with
     other modules.
   * Drop Pre-Depends on dpkg (>= 1.15.6~), that version is available in
     Squeeze already.

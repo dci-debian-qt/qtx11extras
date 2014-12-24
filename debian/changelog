@@ -6,6 +6,7 @@ qtx11extras-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add myself to Uploaders.
+  * Update debian/libqt5x11extras5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Dec 2014 15:56:18 +0300
 

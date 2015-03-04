@@ -4,6 +4,7 @@ qtx11extras-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update watch file to qt.io.
   * Bump Qt build-dependencies to 5.4.1.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 12:33:22 +0000
 

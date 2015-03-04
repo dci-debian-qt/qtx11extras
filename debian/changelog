@@ -1,12 +1,11 @@
-qtx11extras-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Timo Jyrinki ]
   * New upstream release.
   * Update watch file to qt.io.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 12:33:22 +0000
+ -- Timo Jyrinki <timo@debian.org>  Wed, 04 Mar 2015 12:57:28 +0000
 
 qtx11extras-opensource-src (5.4.0-1) experimental; urgency=medium
 

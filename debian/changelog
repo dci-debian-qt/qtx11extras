@@ -1,3 +1,10 @@
+qtx11extras-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+
+  [ Timo Jyrinki ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 12:33:22 +0000
+
 qtx11extras-opensource-src (5.4.0-1) experimental; urgency=medium
 
   * New upstream release.

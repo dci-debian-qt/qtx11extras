@@ -1,6 +1,5 @@
-qtx11extras-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.4.2-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Clear up the list in Uploaders removing people who hasn't committed to the
@@ -8,7 +7,7 @@ qtx11extras-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     (and we really hope to see you back really soon!).
   * Expose HTML documentation (Closes: #751188).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 21:10:18 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 15:13:40 -0300
 
 qtx11extras-opensource-src (5.4.1-1) experimental; urgency=medium
 

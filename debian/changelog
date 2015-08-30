@@ -3,6 +3,7 @@ qtx11extras-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
+  * Build-depend on qtbase5-doc-html, for docs linking.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 14:56:43 +0300
 

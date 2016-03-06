@@ -36,8 +36,6 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt5x11extras5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
-Breaks: libqt5x11extras-dev (<< 5.2.0-2~)
-Replaces: libqt5x11extras-dev (<< 5.2.0-2~)
 Description: Qt 5 X11 extras development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

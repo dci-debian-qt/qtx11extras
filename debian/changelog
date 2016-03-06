@@ -4,6 +4,7 @@ qtx11extras-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
   * New upstream release candidate.
   * Bump Qt build-dependencies to 5.6.0~rc.
   * Drop obsolete Breaks/Replaces from libqt5x11extras5-dev.
+  * Drop the obsolete hack to fix wrong path in pkgconfig files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Mar 2016 17:58:16 +0300
 

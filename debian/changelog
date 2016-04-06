@@ -10,6 +10,7 @@ qtx11extras-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * New upstream release.
   * Bump build dependencies to final 5.6.0.
+  * Bump Standards-Version to 3.9.7, no changes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Mar 2016 17:58:16 +0300
 

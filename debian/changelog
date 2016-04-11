@@ -1,3 +1,21 @@
+qtx11extras-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release candidate.
+  * Bump Qt build-dependencies to 5.6.0~rc.
+  * Drop obsolete Breaks/Replaces from libqt5x11extras5-dev.
+  * Drop the obsolete hack to fix wrong path in pkgconfig files.
+  * Use recommended https URIs for Vcs fields.
+
+  [ Timo Jyrinki ]
+  * New upstream release.
+  * Bump build dependencies to final 5.6.0.
+  * Bump Standards-Version to 3.9.7, no changes.
+  * Migrate symbols to new node names.
+  * Release to experimental.
+
+ -- Timo Jyrinki <timo@debian.org>  Wed, 06 Apr 2016 12:39:09 +0300
+
 qtx11extras-opensource-src (5.5.1-3) unstable; urgency=medium
 
   * Break pre-5.5 versions of libqt5gui5, as QX11Info::display() will return

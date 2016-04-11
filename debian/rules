@@ -27,10 +27,6 @@ override_dh_auto_install-arch:
 
 	# Remove private stuff which we are not shipping.
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
-	
-	# Fix wrong path in pkgconfig files
-	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
-	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs

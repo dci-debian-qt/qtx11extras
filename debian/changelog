@@ -1,6 +1,5 @@
-qtx11extras-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.6.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * As qtbase5-dev as a build dependency in order to avoid this
@@ -8,7 +7,7 @@ qtx11extras-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8, no changes required.
   * Update symbols files with current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 17:52:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 18:05:47 -0300
 
 qtx11extras-opensource-src (5.6.0-1) experimental; urgency=medium
 

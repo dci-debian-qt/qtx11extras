@@ -6,6 +6,7 @@ qtx11extras-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * As qtbase5-dev as a build dependency in order to avoid this
     package migrating before qtbase.
   * Bump Standards-Version to 3.9.8, no changes required.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 17:52:59 -0300
 

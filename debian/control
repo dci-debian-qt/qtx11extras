@@ -10,6 +10,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
+               qtbase5-dev (>= 5.6.1+dfsg~),
                qtbase5-private-dev (>= 5.6.1+dfsg~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
                      qtbase5-doc-html (>= 5.6.1+dfsg~),

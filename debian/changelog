@@ -3,6 +3,8 @@ qtx11extras-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
+  * As qtbase5-dev as a build dependency in order to avoid this
+    package migrating before qtbase.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 17:52:59 -0300
 

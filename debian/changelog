@@ -1,13 +1,12 @@
-qtx11extras-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.7.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies.
   * Update debian/copyright.
   * Update debian/libqt5x11extras5.symbols.
   * Migrate to automatic dbgsym packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jul 2016 21:39:25 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Jul 2016 22:16:12 +0300
 
 qtx11extras-opensource-src (5.6.1-2) unstable; urgency=medium
 

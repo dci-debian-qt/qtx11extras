@@ -1,8 +1,25 @@
-qtx11extras-opensource-src (5.7.0-0neon) xenial; urgency=medium
+qtx11extras-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
-  * New release
+  * Upload to unstable.
 
- -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:06:45 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 01 Nov 2016 15:45:33 +0300
+
+qtx11extras-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
+
+  * New upstream snapshot.
+    - Bump Qt build dependencies.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Oct 2016 18:28:37 -0300
+
+qtx11extras-opensource-src (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies.
+  * Update debian/copyright.
+  * Update debian/libqt5x11extras5.symbols.
+  * Migrate to automatic dbgsym packages.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Jul 2016 22:16:12 +0300
 
 qtx11extras-opensource-src (5.6.1-2) unstable; urgency=medium
 

@@ -1,12 +1,9 @@
-qtx11extras-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  [ Debian Qt/KDE Maintainers ]
+  * Team upload.
   * New upstream release.
 
-  [ Jonathan Riddell ]
-  * New release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 16 Jun 2017 03:52:08 -0500
 
 qtx11extras-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 

@@ -1,11 +1,10 @@
-qtx11extras-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.9.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.1.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Jul 2017 12:41:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 06 Jul 2017 12:43:46 +0300
 
 qtx11extras-opensource-src (5.9.0-1) experimental; urgency=medium
 

@@ -1,3 +1,9 @@
+qtx11extras-opensource-src (5.10.0~alpha-0neon) UNRELEASED; urgency=medium
+
+  * 5.10
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:32 +0100
+
 qtx11extras-opensource-src (5.9.1-2) unstable; urgency=medium
 
   * Release to unstable.

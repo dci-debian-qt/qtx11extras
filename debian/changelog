@@ -1,13 +1,12 @@
-qtx11extras-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.9.2-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Use debhelper compat level 10 and dh_missing.
   * Stop using deprecated Priority: extra.
   * Bump Standards-Version to 4.1.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Oct 2017 16:28:50 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Oct 2017 16:32:12 +0300
 
 qtx11extras-opensource-src (5.9.1-2) unstable; urgency=medium
 

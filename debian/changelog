@@ -1,6 +1,5 @@
-qtx11extras-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.10.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch for the new upstream tarball names.
   * Use dh_auto_configure provided by debhelper (closes: #880931).
@@ -9,7 +8,7 @@ qtx11extras-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Update libqt5x11extras5.symbols with the new symbols.
   * Bump Standards-Version to 4.1.2, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Dec 2017 23:29:31 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 15 Dec 2017 00:16:31 +0300
 
 qtx11extras-opensource-src (5.9.2-1) unstable; urgency=medium
 

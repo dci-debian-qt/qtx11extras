@@ -1,6 +1,7 @@
-# SymbolsHelper-Confirmed: 5.9.0~rc2 amd64
+# SymbolsHelper-Confirmed: 5.10.0 amd64 i386
 libQt5X11Extras.so.5 libqt5x11extras5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.1
+ Qt_5.10@Qt_5.10 5.10.0
  Qt_5.1@Qt_5.1 5.6.1
  Qt_5.2@Qt_5.2 5.6.1
  Qt_5.3@Qt_5.3 5.6.1
@@ -19,7 +20,10 @@ libQt5X11Extras.so.5 libqt5x11extras5 #MINVER#
  _ZN8QX11Info13appRootWindowEi@Qt_5 5.6.0
  _ZN8QX11Info13isPlatformX11Ev@Qt_5 5.6.0
  _ZN8QX11Info13nextStartupIdEv@Qt_5 5.6.0
+ _ZN8QX11Info14peekEventQueueEPFbP19xcb_generic_event_tPvES2_6QFlagsINS_10PeekOptionEEi@Qt_5 5.10.0
+ _ZN8QX11Info14removePeekerIdEi@Qt_5 5.10.0
  _ZN8QX11Info14setAppUserTimeEm@Qt_5 5.6.0
+ _ZN8QX11Info16generatePeekerIdEv@Qt_5 5.10.0
  _ZN8QX11Info16setNextStartupIdERK10QByteArray@Qt_5 5.6.0
  _ZN8QX11Info27isCompositingManagerRunningEi@Qt_5 5.7.0
  _ZN8QX11Info7appDpiXEi@Qt_5 5.6.0

@@ -1,3 +1,10 @@
+qtx11extras-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies to Qt 5.9.3.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 22:23:28 -0600
+
 qtx11extras-opensource-src (5.9.2-1) unstable; urgency=medium
 
   * New upstream release.

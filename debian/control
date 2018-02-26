@@ -11,11 +11,11 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 10.3),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.9.3+dfsg~),
-               qtbase5-private-dev (>= 5.9.3+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.3+dfsg~),
-                     qtbase5-doc-html (>= 5.9.3+dfsg~),
-                     qttools5-dev-tools (>= 5.9.3~)
+               qtbase5-dev (>= 5.9.4+dfsg~),
+               qtbase5-private-dev (>= 5.9.4+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.4+dfsg~),
+                     qtbase5-doc-html (>= 5.9.4+dfsg~),
+                     qttools5-dev-tools (>= 5.9.4~)
 Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtx11extras.git

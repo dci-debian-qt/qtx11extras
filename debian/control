@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 10.9.2~),
+Build-Depends: debhelper (>= 11~),
                pkg-kde-tools,
                qtbase5-dev (>= 5.10.1+dfsg~),
                qtbase5-private-dev (>= 5.10.1+dfsg~)

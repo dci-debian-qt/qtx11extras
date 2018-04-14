@@ -1,8 +1,8 @@
-qtx11extras-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.9.5-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 14 Apr 2018 15:31:10 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 14 Apr 2018 15:31:39 -0500
 
 qtx11extras-opensource-src (5.9.4-0ubuntu1) bionic; urgency=medium
 

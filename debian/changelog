@@ -1,3 +1,9 @@
+qtx11extras-opensource-src (5.11.0-0neon) xenial; urgency=medium
+
+  * Release 5.11 to neon
+
+ -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 03:46:43 +0000
+
 qtx11extras-opensource-src (5.10.1-2) unstable; urgency=medium
 
   * Release to unstable.

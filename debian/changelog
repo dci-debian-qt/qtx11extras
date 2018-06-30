@@ -1,6 +1,5 @@
-qtx11extras-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.11.1-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * Add my name to Uploaders.
   * New upstream release.
   * Bump Standards-version to 4.1.4, no changes needed.
@@ -10,7 +9,7 @@ qtx11extras-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   * Bump build dependencies to 5.11.1.
   * Update symbols from amd64 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:48:17 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Jun 2018 16:05:59 -0500
 
 qtx11extras-opensource-src (5.10.1-2) unstable; urgency=medium
 

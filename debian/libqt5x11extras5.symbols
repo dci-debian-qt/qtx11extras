@@ -2,6 +2,7 @@
 libQt5X11Extras.so.5 libqt5x11extras5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.1
  Qt_5.10@Qt_5.10 5.10.0
+ Qt_5.11@Qt_5.11 5.11.1
  Qt_5.1@Qt_5.1 5.6.1
  Qt_5.2@Qt_5.2 5.6.1
  Qt_5.3@Qt_5.3 5.6.1

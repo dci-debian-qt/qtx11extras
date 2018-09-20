@@ -1,8 +1,21 @@
-qtx11extras-opensource-src (5.11.1-0neon) xenial; urgency=medium
+qtx11extras-opensource-src (5.11.1-2) unstable; urgency=medium
 
-  * Release 5.11.1 to neon
+  * Upload to Sid.
 
- -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 03:46:43 +0000
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 04:49:33 -0500
+
+qtx11extras-opensource-src (5.11.1-1) experimental; urgency=medium
+
+  * Add my name to Uploaders.
+  * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Remove ~ from the debhelper dependency.
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+  * Bump build dependencies to 5.11.1.
+  * Update symbols from amd64 build logs.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Jun 2018 16:05:59 -0500
 
 qtx11extras-opensource-src (5.10.1-2) unstable; urgency=medium
 

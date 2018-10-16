@@ -1,5 +1,7 @@
 qtx11extras-opensource-src (5.11.2-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Oct 2018 13:52:15 +0300
 

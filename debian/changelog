@@ -1,9 +1,9 @@
-qtx11extras-opensource-src (5.11.2-2) UNRELEASED; urgency=medium
+qtx11extras-opensource-src (5.11.2-2) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/copyright.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Oct 2018 13:52:15 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 16 Oct 2018 13:57:54 +0300
 
 qtx11extras-opensource-src (5.11.2-1) experimental; urgency=medium
 
